@@ -1,0 +1,20 @@
+// font
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700');
+
+$text-color: #181921;
+html, body, #app-mount, .app-container {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Raleway", sans-serif;
+	color: $text-color;
+	.page-wrapper {
+		padding: 20px;
+		box-sizing: border-box;
+		&.extra-padding {
+			padding: 50px;
+		}
+	}
+}
