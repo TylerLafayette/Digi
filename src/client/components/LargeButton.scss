@@ -1,0 +1,17 @@
+.large-button-reg {
+	padding: 15px 20px;
+	border: 0;
+	color: #1e1841;
+	background-color: lighten(#1e1841, 70%);
+	border-radius: 5px;
+	font-family: monospace;
+	font-weight: bold;
+	outline: 0;
+	transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+	&:hover {
+		background-color: lighten(#1e1841, 60%);
+	}
+	&:active {
+		background-color: lighten(#1e1841, 50%);
+	}
+}

@@ -1,0 +1,15 @@
+.math-input {
+	padding: 25px 0px;
+	.mq-editable-field {
+		border: 0;
+		background: #eeeeee;
+		padding: 20px;
+		box-sizing: border-box;
+		min-width: 200px;
+		border-radius: 10px;
+		&.mq-focused {
+			box-shadow: none;
+			-webkit-box-shadow: none;
+		}
+	}
+}

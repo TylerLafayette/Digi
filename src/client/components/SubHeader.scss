@@ -1,0 +1,7 @@
+$text-color: #181921;
+
+.large-subheader {
+	font-size: 28px;
+	color: lighten($text-color, 10);
+	display: block;
+}
