@@ -18,3 +18,8 @@ html, body, #app-mount, .app-container {
 		}
 	}
 }
+
+::selection {
+	background: #3E4342;
+	color: white;
+}
